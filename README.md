@@ -9,11 +9,11 @@
 
 # What will you check that will make this protection effective and less false-positives?
 · Our checks on requester IPs will be:
-1- Proxy/VPN check
-2- Country check
-3- Provider/ASN check
-4- If in the same attack, the same IP sent different headers (like user-agent) more than 2 times
-5- Repeating the same User-Agent with a LOT of different IPs
+- Proxy/VPN check
+- Country check
+- Provider/ASN check
+- If in the same attack, the same IP sent different headers (like user-agent) more than 2 times
+- Repeating the same User-Agent with a LOT of different IPs
 
 
 # How will this stop attacks to my web-server? Aren't L7 attacks undetectable?
